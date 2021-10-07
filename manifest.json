@@ -1,0 +1,3 @@
+{
+    "content_security_policy": "connect-src ws://localhost:8097"
+}

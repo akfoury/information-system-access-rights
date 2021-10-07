@@ -3,16 +3,44 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "@webpack-cli/init": "^1.1.2",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "dexie": "^3.0.3",
+    "export-to-csv": "^0.2.1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "material-ui": "^0.20.2",
+    "node-sass": "^4.14.1",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.3",
+    "react-hook-form": "^6.14.1",
+    "react-indexed-db": "^1.0.12",
+    "react-multistep": "^5.1.0",
+    "react-redux": "^7.2.2",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-spring": "^8.0.27",
+    "react-table": "^6.7.0-alpha-0",
+    "react-tabs": "^3.1.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "resize-sensor": "0.0.6",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4",
+    "xlsx": "^0.16.9"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env BROWSER=chrome react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -21,7 +49,11 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-ternary": "off",
+      "no-unused-expressions": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -34,5 +66,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0"
   }
 }

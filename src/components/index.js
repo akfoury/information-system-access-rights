@@ -1,0 +1,10 @@
+export { default as Resume } from './resume';
+export { default as Header } from './header';
+export { default as Table } from './table';
+export { default as Upload } from './upload';
+export { default as UserForm } from './userform';
+export { default as TabsList } from './tabs';
+export { default as Success } from './success';
+export { default as DialogModal } from "./modal";
+export { default as Usages } from "./usages";
+export { default as FileInfo } from "./fileInfo";

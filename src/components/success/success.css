@@ -1,0 +1,25 @@
+.success {
+    line-height: 200px;
+    position: relative;
+}
+
+.message {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.icon {
+    position: absolute;
+    top: -25%;
+    left: 45%;
+    color: rgb(21, 214, 54)
+}
+
+.back {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    color: rgb(21, 214, 54)
+}

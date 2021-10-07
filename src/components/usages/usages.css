@@ -1,0 +1,160 @@
+button[disabled]{
+    pointer-events:none;
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+div.col-sm-12 {
+    height: fit-content;
+}
+
+.usages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scrollContainer {
+    width: 60vw;
+    height: 220px;
+}
+
+#my-form {
+    width: max-content;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonContainer .MuiButtonBase-root:not(:last-child) {
+    width: 150px;
+}
+
+.buttonContainer .MuiButtonBase-root:nth-child(1) {
+    background-color: orange;
+}
+
+.buttonContainer .MuiButtonBase-root:nth-child(2) {
+    background-color: red;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: left;
+    height: 20vh;
+}
+
+.usagesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.usageContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+    
+}
+
+.usageContainer > span {
+    margin-right: 4px;
+}
+
+.usage {
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    width: 130px;
+    height: 40px;
+}
+
+.content {
+    display: flex;
+}
+
+.usages {
+    display: flex;
+    justify-content: center;
+}
+
+
+.scroll:last-child {
+    width: 250px;
+    margin-left: 15px;
+}
+
+.colContainer button.hide {
+    display: none;
+    margin-left: 100px;
+} 
+
+.icon:before {
+    font-family: "FontAwesome";
+    content: "\f053";
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.material-icons {
+    color: white;
+    vertical-align: text-bottom;
+    float: right;
+}
+
+.colbutton {
+    background-color: #3c54b4;
+    outline: none;
+    border: none;
+    margin-left: 3px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSpan {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.colContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.usage-item {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #3c54b4;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #3c54b4;
+}
+
+.track-vertical {
+    position: absolute; 
+    width: 6px; 
+    right: 2px; 
+    bottom: 2px; 
+    top: 2px; 
+    border-radius: 10px;
+}
+
+/* .track-vertical > div {
+    position: relative;
+} */

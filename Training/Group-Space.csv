@@ -1,0 +1,95 @@
+GroupName;Space;Role
+READ-REFERENTIAL_SITE;REFERENTIEL_SITE;Guest
+READ-GBU_01;GBU_01;Guest
+READ-REFERENTIAL_SITE;GBU_01;Guest
+READ-GBU_02;GBU_02;Guest
+READ-REFERENTIAL_SITE;GBU_02;Guest
+READ-CLUSTER_01;CLUSTER_01;Guest
+READ-REFERENTIAL_SITE;CLUSTER_01;Guest
+READ-GBU_01;CLUSTER_01;Guest
+READ-CLUSTER_02;CLUSTER_02;Guest
+READ-REFERENTIAL_SITE;CLUSTER_02;Guest
+READ-GBU_01;CLUSTER_02;Guest
+READ-CLUSTER_03;CLUSTER_03;Guest
+READ-REFERENTIAL_SITE;CLUSTER_03;Guest
+READ-GBU_02;CLUSTER_03;Guest
+READ-Site_01;Site_01;Guest
+READ-CLUSTER_01;Site_01;Guest
+READ-GBU_01;Site_01;Guest
+READ-REFERENTIAL_SITE;Site_01;Guest
+READ-Site_02;Site_02;Guest
+READ-CLUSTER_01;Site_02;Guest
+READ-GBU_01;Site_02;Guest
+READ-REFERENTIAL_SITE;Site_02;Guest
+READ-Site_03;Site_03;Guest
+READ-CLUSTER_02;Site_03;Guest
+READ-GBU_01;Site_03;Guest
+READ-REFERENTIAL_SITE;Site_03;Guest
+READ-Site_04;Site_04;Guest
+READ-CLUSTER_03;Site_04;Guest
+READ-GBU_02;Site_04;Guest
+READ-REFERENTIAL_SITE;Site_04;Guest
+READ-Site_05;Site_05;Guest
+READ-CLUSTER_03;Site_05;Guest
+READ-GBU_02;Site_05;Guest
+READ-REFERENTIAL_SITE;Site_05;Guest
+READ-PROGRAM_DIGITAL;PROGRAM_DIGITAL;Guest
+READ-Project_MARS;Project_MARS;Guest
+READ-PROGRAM_DIGITAL;Project_MARS;Guest
+READ-Project_Saturne;Project_Saturne;Guest
+READ-PROGRAM_DIGITAL;Project_Saturne;Guest
+READ-Project_Orion;Project_Orion;Guest
+READ-PROGRAM_DIGITAL;Project_Orion;Guest
+READ-PROGRAM_INNOVATION;PROGRAM_INNOVATION;Guest
+READ-Project_Artificial Intelligence;Project_Artificial Intelligence;Guest
+READ-PROGRAM_INNOVATION;Project_Artificial Intelligence;Guest
+READ-Project_SMART Building;Project_SMART Building;Guest
+READ-PROGRAM_INNOVATION;Project_SMART Building;Guest
+READ-Menu_Digital;Menu_Digital;Guest
+READ-Menu_Innovation;Menu_Innovation;Guest
+WRITE-REFERENTIAL_SITE;REFERENTIEL_SITE;Participant
+WRITE-GBU_01;GBU_01;Participant
+WRITE-REFERENTIAL_SITE;GBU_01;Participant
+WRITE-GBU_02;GBU_02;Participant
+WRITE-REFERENTIAL_SITE;GBU_02;Participant
+WRITE-CLUSTER_01;CLUSTER_01;Participant
+WRITE-REFERENTIAL_SITE;CLUSTER_01;Participant
+WRITE-GBU_01;CLUSTER_01;Participant
+WRITE-CLUSTER_02;CLUSTER_02;Participant
+WRITE-REFERENTIAL_SITE;CLUSTER_02;Participant
+WRITE-GBU_01;CLUSTER_02;Participant
+WRITE-CLUSTER_03;CLUSTER_03;Participant
+WRITE-REFERENTIAL_SITE;CLUSTER_03;Participant
+WRITE-GBU_02;CLUSTER_03;Participant
+WRITE-Site_01;Site_01;Participant
+WRITE-CLUSTER_01;Site_01;Participant
+WRITE-GBU_01;Site_01;Participant
+WRITE-REFERENTIAL_SITE;Site_01;Participant
+WRITE-Site_02;Site_02;Participant
+WRITE-CLUSTER_01;Site_02;Participant
+WRITE-GBU_01;Site_02;Participant
+WRITE-REFERENTIAL_SITE;Site_02;Participant
+WRITE-Site_03;Site_03;Participant
+WRITE-CLUSTER_02;Site_03;Participant
+WRITE-GBU_01;Site_03;Participant
+WRITE-REFERENTIAL_SITE;Site_03;Participant
+WRITE-Site_04;Site_04;Participant
+WRITE-CLUSTER_03;Site_04;Participant
+WRITE-GBU_02;Site_04;Participant
+WRITE-REFERENTIAL_SITE;Site_04;Participant
+WRITE-Site_05;Site_05;Participant
+WRITE-CLUSTER_03;Site_05;Participant
+WRITE-GBU_02;Site_05;Participant
+WRITE-REFERENTIAL_SITE;Site_05;Participant
+WRITE-PROGRAM_DIGITAL;PROGRAM_DIGITAL;Participant
+WRITE-Project_MARS;Project_MARS;Participant
+WRITE-PROGRAM_DIGITAL;Project_MARS;Participant
+WRITE-Project_Saturne;Project_Saturne;Participant
+WRITE-PROGRAM_DIGITAL;Project_Saturne;Participant
+WRITE-Project_Orion;Project_Orion;Participant
+WRITE-PROGRAM_DIGITAL;Project_Orion;Participant
+WRITE-PROGRAM_INNOVATION;PROGRAM_INNOVATION;Participant
+WRITE-Project_Artificial Intelligence;Project_Artificial Intelligence;Participant
+WRITE-PROGRAM_INNOVATION;Project_Artificial Intelligence;Participant
+WRITE-Project_SMART Building;Project_SMART Building;Participant
+WRITE-PROGRAM_INNOVATION;Project_SMART Building;Participant

@@ -1,0 +1,47 @@
+$theme-colors: (
+  "primary": #3c54b4
+);
+
+$link-color: #3c54b4;
+
+.text-wrap {
+  white-space: normal;
+}
+
+.rt-resizable-header {
+  background-color: #3c54b4;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+div.rt-tr {
+  align-items: center;
+  border-bottom: 1px solid darkgrey;
+  text-align: center;
+}
+
+.-pagination {
+  height: 55px;
+}
+
+div.-previous {
+  height: fit-content;
+}
+
+div.-next {
+  height: fit-content;
+}
+
+.-pageSizeOptions > select {
+  visibility: hidden;
+}
+
+.saveUser, .createProfil {
+  position: absolute;
+  top: -30px;
+  left: 550px;
+}
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
